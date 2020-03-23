@@ -1,0 +1,53 @@
+.sessao {
+	width: 100%;
+}
+
+.sessao img {
+	display: inline-block;
+}
+
+.sessao div {
+	display: inline-block;
+}
+
+h2 {
+	font-size: 30px;
+	font-family: 'YoungSerifRegular', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding: 10px 0;
+}
+
+p, li {
+	font-family: 'KarlaBoldStencil', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.foto-esquerda {
+	width: 50%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.texto-direita {
+	box-sizing: border-box;
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	padding: 20px;
+	text-align: right;
+}
+
+
+.foto-direita { 
+	width: 50%;
+	position: relative;
+	left: 50%
+}
+
+.texto-esquerda {
+	box-sizing: border-box;
+	position: absolute;
+	width: 50%;
+	right: 50%;
+	padding: 20px;
+	text-align: left;
+}
