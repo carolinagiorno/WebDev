@@ -1,0 +1,53 @@
+.header {
+    background: #053f47;
+    padding: 20px 0;
+}
+
+.elementos-header {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.nav-principal {
+    font-family: 'KarlaBoldStencil', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+.nav-principal li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+
+.nav-principal a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav-principal a:hover {
+    color: #293d3d;
+    font-size: 25px;
+}
+
+.rodape {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    font-family: 'YoungSerifRegular', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+    font-size: 12px;
+    margin: 20px 0 0;
+}
+
+.copyright a {
+    color: white;
+}
